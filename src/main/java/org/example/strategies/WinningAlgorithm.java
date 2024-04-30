@@ -13,7 +13,7 @@ public class WinningAlgorithm {
     public boolean checkWinner(Board board, Move move) {
         int row = move.getCell().getRow();
         int col = move.getCell().getCol();
-        Character character = move.getPlayer().getSymbol().getaChar();
+        Character character = move.getPlayer().getSymbol();
 
         if (!this.rowMaps.containsKey(row)) {
             rowMaps.put(row, new HashMap<>());

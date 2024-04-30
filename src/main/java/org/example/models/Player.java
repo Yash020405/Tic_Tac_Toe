@@ -32,8 +32,8 @@ public class Player {
         this.name = name;
     }
 
-    public Symbol getSymbol() {
-        return symbol;
+    public Character getSymbol() {
+        return symbol.getaChar();
     }
 
     public void setSymbol(Symbol symbol) {

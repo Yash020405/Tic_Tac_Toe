@@ -8,7 +8,7 @@ public class Symbol {
     }
 
     public char getaChar() {
-        return aChar;
+        return this.aChar;
     }
 
     public void setaChar(char aChar) {

@@ -40,8 +40,8 @@ public class Board {
             for (Cell cell : row) {
                 if (cell.getCellState().equals(CellState.EMPTY)) {
                     System.out.print("| -- |");
-                } else {
-                    System.out.print("| " + cell.getPlayer().getSymbol().getaChar() + " |");
+                }else {
+                    System.out.print("| " + cell.getPlayer().getSymbol() + " |");
                 }
             }
             System.out.println();
